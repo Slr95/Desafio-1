@@ -30,6 +30,6 @@ function objCompare(object1, object2){
   return same;
 }
 
-//Este primer console.log compara los 2 objetos y el segundo los anidados
+//Este primer console.log compara los 2 objetos y el segundo los niveles inferiores
 console.log(Object.entries(obj1).sort().toString() === Object.entries(obj2).sort().toString())
 console.log(objCompare(obj1, obj2));
